@@ -1,0 +1,33 @@
+aside {width: 200px; float: left; border: 1px solid #d6d6d6; padding: 10px; margin: 20px;}
+section.board {
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    background: #d6d6d6;
+    float: left;
+    margin: 20px;
+}
+
+section.board .tile {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background: white;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section.board .tile:hover {
+    background: cornsilk;
+}
+
+section.board .tile.filled {
+    cursor: default;
+}
+section.board .tile.filled:hover {
+    background:white;
+}
